@@ -7,21 +7,25 @@
 ---
 
 ### Project Description
-Provide a high-level description of your project. Include explanatory links if you think they will be helpful.
+Our game is Minesweeper, we will implement a tile class that will fill up the board, and various subclasses to determine the state of the tile. (edit this to make it more professional sounding)
 
 ### Skill Usage
 Explain what skills from this semester you will be using in this project, and how they will be used.
 
 ### Controls
-How will your program be controlled? List all keyboard commands and mouse interactions.
 
 Keyboard Commands:
-- LIST OF COMMANDS HERE
-
+- "r": reset the game
+- "1": easy mode
+- "2": hard mode
 Mouse Control:
-- Mouse movement:
-- Mouse pressed:
+- Left Click: Uncover tile
+- Right Click: Place a flag on an uncovered tile
 
 
 ### Classes
 What classes will you be creating for this project? Include the instance variables and methods that you believe you will need. You will be required to create at least 2 different classes. If you are going to use classes similar to those we've made for previous assignments, you will have to add new features to them.
+
+class Tile:
+
+class Flag:
