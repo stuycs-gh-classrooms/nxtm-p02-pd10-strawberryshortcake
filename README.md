@@ -27,11 +27,13 @@ Mouse Control:
 What classes will you be creating for this project? Include the instance variables and methods that you believe you will need. You will be required to create at least 2 different classes. If you are going to use classes similar to those we've made for previous assignments, you will have to add new features to them.
 
 class Tile
+
 Variables:
   - array pos: the position of the tile at the top left corner
   - int state: the state of the tile as a variable, 0 for uncovered, 1 for covered
   - boolean bomb: determines whether this tile is a bomb tile or not
   - int mineNum: the number of mines around the tile. Displayed when the tile is uncovered.
+    
 Methods:
   - void display: displays the tile,
   - void covered: the display of a covered tile
