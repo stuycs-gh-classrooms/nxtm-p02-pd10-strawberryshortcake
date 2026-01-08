@@ -42,6 +42,7 @@ Methods:
   - void uncover: uncovers the tile, if its a bomb then it blows up and the game is over. Or changes the tile to an uncovered tile, and displays a number.
 
 class Board
+
 Variables:
   - array cell[][] grid: grid of cells
   - int width: width of the board
@@ -51,6 +52,7 @@ Variables:
   - int flagCount: amount of flags
   - boolean gameOver:
   - boolean gameStarted:
+    
 Methods:
   - void setup: calls gameStart
   - void gameStart: initializes all variables and starts the game.
