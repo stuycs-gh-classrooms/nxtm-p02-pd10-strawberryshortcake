@@ -31,11 +31,13 @@ Variables:
   - array pos: the position of the tile at the top left corner
   - int state: the state of the tile as a variable, 0 for uncovered, 1 for covered
   - boolean bomb: determines whether this tile is a bomb tile or not
+  - int mineNum: the number of mines around the tile. Displayed when the tile is uncovered.
 Methods:
   - void display: displays the tile,
   - void covered: the display of a covered tile
   - void uncovered: the display of an uncovered tile
   - void bomb: the display of an uncovered bomb tile
+  - void uncover: uncovers the tile, if its a bomb then it blows up and the game is over. Or changes the tile to an uncovered tile, and displays a number.
 
 class Board
 Variables:
@@ -54,6 +56,6 @@ Methods:
   - void draw: continuously runs all the functions below this one.
   - void gameOver: checks whether game is over and if true, ends the game and displays the end screen.
   - void display: displays the board
-  - 
+
 
   
