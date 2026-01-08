@@ -7,7 +7,7 @@
 ---
 
 ### Project Description
-Our project is a Minesweeper game, we will implement a tile class that will fill up the board, and various subclasses to determine the state of the tile. (edit this to make it more professional sounding)
+Our project is a Minesweeper game, we will implement a tile class that will fill up the board, and various subclasses to determine the state of the tile. This will be an addon to Minesweeper with animations and powerups! (edit this to make it more professional sounding)
 
 ### Skill Usage
 Explain what skills from this semester you will be using in this project, and how they will be used.
