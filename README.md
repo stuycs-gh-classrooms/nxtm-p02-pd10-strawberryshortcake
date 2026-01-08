@@ -39,6 +39,21 @@ Methods:
 
 class Board
 Variables:
-  - cell[][] grid: grid of cells
+  - array cell[][] grid: grid of cells
+  - int width: width of the board
+  - int height: height of the board
+  - int mines: amount of mines on the board
+  - int revealedCount: amount of revealed tiles
+  - int flagCount: amount of flags
+  - boolean gameOver:
+  - boolean gameStarted:
+Methods:
+  - void setup: calls gameStart
+  - void gameStart: initializes all variables and starts the game.
+  - void mouseClicked: if left mouse is clicked, reveal the tile on that spot. if right mouse is clicked place a flag.
+  - void draw: continuously runs all the functions below this one.
+  - void gameOver: checks whether game is over and if true, ends the game and displays the end screen.
+  - void display: displays the board
   - 
+
   
