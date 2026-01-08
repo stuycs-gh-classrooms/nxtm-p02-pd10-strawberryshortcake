@@ -7,7 +7,7 @@
 ---
 
 ### Project Description
-Our game is Minesweeper, we will implement a tile class that will fill up the board, and various subclasses to determine the state of the tile. (edit this to make it more professional sounding)
+Our project is a Minesweeper game, we will implement a tile class that will fill up the board, and various subclasses to determine the state of the tile. (edit this to make it more professional sounding)
 
 ### Skill Usage
 Explain what skills from this semester you will be using in this project, and how they will be used.
@@ -26,6 +26,19 @@ Mouse Control:
 ### Classes
 What classes will you be creating for this project? Include the instance variables and methods that you believe you will need. You will be required to create at least 2 different classes. If you are going to use classes similar to those we've made for previous assignments, you will have to add new features to them.
 
-class Tile:
+class Tile
+Variables:
+  - array pos: the position of the tile at the top left corner
+  - int state: the state of the tile as a variable, 0 for uncovered, 1 for covered
+  - boolean bomb: determines whether this tile is a bomb tile or not
+Methods:
+  - void display: displays the tile,
+  - void covered: the display of a covered tile
+  - void uncovered: the display of an uncovered tile
+  - void bomb: the display of an uncovered bomb tile
 
-class Flag:
+class Board
+Variables:
+  - cell[][] grid: grid of cells
+  - 
+  
